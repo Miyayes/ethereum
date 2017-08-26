@@ -7,7 +7,7 @@ contract BidBillboard {
 	string public currentPosterUrl;
 	address public owner;
 	
-    //Replace poster
+    	//Replace poster
 	function newPoster(string posterUrl) payable {
 
 		//Ensure that bid is higher than currentBid
